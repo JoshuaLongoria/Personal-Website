@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profoilio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick= hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#Homepage">Profoilio</a></li>
+            <li><a href="#Homepage">Home</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Homepage">Profoilio</a></li>
+            <li class="hideOnMobile"><a href="#Homepage">Home</a></li>
+            <li class="hideOnMobile"><a href="#Skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#Education">Education</a></li>
+            <li class="hideOnMobile"><a href="#Projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
+            <li class="menu-button" onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class ="Homepage" id="Homepage">
+        <div class="Profile-pic"><img src="IMG_1894.png" alt="" width="300px" ></div>
+        <div class="Header">
+            <h1>Joshua Longoria</h1>
+            <p> Software Engineer 
+                <br>
+                Cybersercurity
+                <br>
+                CS Major
+            </p>
+            <div>
+                <button class = "instagram" onclick="window.location.href = 'https://www.instagram.com/hippojosh_?igsh=bDFscm02NDI4ZW1u&utm_source=qr'"><img src="Black-Instagram-Logo-Transparent.png" width="30px" ></button>
+                <button class = "LinkedIn" onclick="window.location.href = 'https://www.linkedin.com/in/joshua-longoria-221885163'"><img src ="10-2-linkedin-png-clipart.png" width="30px"></button>
+            </div>
+        </div>
+    </div>    
+    <section class ="Skill-tab" id="Skills">
+        <div class="header">
+            <div class="details">
+                <span class="tab-header">Skills</span>
+                <span class="tab-details"></span>
+            </div>
+        </div>
+        <div class = progress>
+            <div class="Types-languages">
+                <div class="HTML"><img src="html5-logo-png-transparent.png" alt="" width="100px" ></div>
+                <div class="HTML-details">
+                    <span class="HTML-details-1">My knowledge encompasses the use of headings, paragraphs, links, images, lists, forms, tables, and semantic elements, enabling me to build well-organized and accessible websites.</span>
+                    <span class="HTML-details-2"></span>
+                </div>
+                <div class="CSS"><img src="css-logo.png" alt="" width="100px">
+                </div>
+                <div class="CSS-details">
+                    <span class="CSS-details-1">My expertise includes the ability to manipulate colors, fonts, spacing, and positioning, as well as to implement responsive design techniques using media queries. I am proficient in utilizing CSS selectors, pseudo-classes, pseudo-elements, and the box model, enabling me to create visually appealing and user-friendly websites."</span>
+                    <span class="CSS-details-2"></span>
+                </div>
+                <div class="CPP"><img src="1687615910475.png" alt="" width="100px">
+                </div>
+                <div class="CPP-details">
+                    <span class="C++-details-1">My knowledge includes the core concepts of C++ such as variables, data types, control structures, functions, and arrays. Additionally, I am proficient in more advanced topics such as object-oriented programming (OOP), including classes, inheritance, polymorphism, and encapsulation. I have also worked with pointers, dynamic memory allocation, and the Standard Template Library (STL).</span>
+                    <span class="C++-details-2"></span>
+                </div>
+                <div class="Java"><img src="" alt="" ">
+                </div>
+                <div class="Java-details">
+                    <span class="Java-details-1">My knowledge encompasses the fundamental concepts of JavaScript such as variables, data types, operators, control structures, functions, and events. Additionally, I am skilled in advanced topics like asynchronous programming with callbacks, promises, and async/await, as well as manipulating the Document Object Model (DOM) to create dynamic and interactive web pages. </span>
+                    <span class="Java-details-2"></span>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section class = "Education-tab" id="Education">
+        <div class = "header2">
+            <span class = "Ed-header">Education</span>
+            <span class = "Ed/header/deatails"></span>
+        </div>
+        <div class="TypesOfEd">
+            <span class = "first">I earned an Associate Degree in Computer Science at Austin Community College, which involved comprehensive coursework in programming, data structures, algorithms, and computer systems. During my studies, I gained hands-on experience with various programming languages, software development methodologies, and network technologies, providing me with a strong foundation for a career in technology and software development.</span>
+            <span class = "second">Certificate in Cybersercurity Basics</span>
+            <span class = "third"> Certificate in AWS cloud</span>
+        </div>
+    </section>
+    <section class = "Projects-tab" id="Projects">  
+        <div class="header3">
+            <span class="Proj-header">Projects</span>
+        </div>
+        <div class="TypesOfProj">
+            <span class="Project-1">QR SCANNER</span>
+            <span class="Project-2">CHESS GAME</span>
+            <span class="Project-3">LOGIN(WEBSITE)</span>
+        </div>
+    </section>
+    <section class = "Contact-tab" id ="Contact">
+        <div class = "header4">
+            <span class = "Cont-header">Contact</span>
+        </div>
+        <div class = "TypesOfCont">
+            <span class = "Contact-1">Email</span>
+            <span class = "Contact-2">LinkedIn</span>
+            <span class = "Contact-3">Number</span>
+        </div>
+    </section>
+
+    
+</body>
+</html>
